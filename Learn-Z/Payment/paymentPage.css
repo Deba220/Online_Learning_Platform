@@ -1,0 +1,225 @@
+@import 'https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css';
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.payment-container {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 8px 32px rgba(0,86,210,0.13), 0 1.5px 6px rgba(0,0,0,0.04);
+  padding: 2.5rem 2rem 2rem 2rem;
+  max-width: 420px;
+  margin: 3rem auto;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  position: relative;
+}
+
+.order-overview {
+  background: linear-gradient(90deg, #e3f0ff 0%, #f8fafc 100%);
+  border-radius: 0.8rem;
+  padding: 1.2rem 1rem 1rem 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,86,210,0.06);
+}
+
+.order-overview h2 {
+  font-size: 1.25rem;
+  color: #0056d2;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+  letter-spacing: 0.5px;
+}
+
+.order-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #344767;
+  margin-bottom: 0.2rem;
+}
+
+.order-instructor {
+  font-size: 0.98rem;
+  color: #5c6f8c;
+  margin-bottom: 0.2rem;
+}
+
+.order-amount {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1b8a3a;
+  margin-top: 0.5rem;
+}
+
+.payment-section {
+  margin-bottom: 2rem;
+}
+
+.payment-section h3 {
+  font-size: 1.1rem;
+  color: #0056d2;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.name-fields {
+  display: flex;
+  gap: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.name-input {
+  flex: 1;
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e3e6ea;
+  font-size: 1rem;
+  background: #f8fafc;
+  transition: border 0.18s;
+}
+
+.name-input:focus {
+  border: 1.5px solid #4f8cff;
+  outline: none;
+}
+
+.card-input {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e3e6ea;
+  font-size: 1rem;
+  background: #f8fafc;
+  margin-bottom: 0.8rem;
+  transition: border 0.18s;
+}
+
+.card-input:focus {
+  border: 1.5px solid #4f8cff;
+  outline: none;
+}
+
+.cvv-input {
+  width: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.expiry-fields {
+  display: flex;
+  gap: 0.7rem;
+  margin-bottom: 1.2rem;
+}
+
+.expiry-select {
+  flex: 1;
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e3e6ea;
+  background: #f8fafc;
+  font-size: 1rem;
+  transition: border 0.18s;
+}
+
+.expiry-select:focus {
+  border: 1.5px solid #4f8cff;
+  outline: none;
+}
+
+.other-payment-methods {
+  margin-bottom: 2rem;
+}
+
+.other-payment-methods h3 {
+  font-size: 1.1rem;
+  color: #0056d2;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.payment-options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.7rem;
+}
+
+.payment-option-btn {
+  width: 100%;
+  padding: 0.6rem 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e3e6ea;
+  background: linear-gradient(90deg, #f8fafc 60%, #e3f0ff 100%);
+  color: #0056d2;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+  box-shadow: 0 1px 4px rgba(0,86,210,0.05);
+}
+
+.payment-option-btn:hover, .payment-option-btn:focus {
+  background: linear-gradient(90deg, #4f8cff 0%, #6dd5ed 100%);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(0,86,210,0.13);
+  border: none;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.cancel-btn {
+  background: #fff;
+  color: #d32f2f;
+  border: 1.5px solid #d32f2f;
+  border-radius: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.18s, color 0.18s, border 0.18s;
+  cursor: pointer;
+}
+
+.cancel-btn:hover, .cancel-btn:focus {
+  background: #ffeaea;
+  color: #a31515;
+  border: 1.5px solid #a31515;
+}
+
+.submit-btn {
+  background: linear-gradient(90deg, #0056d2 0%, #4f8cff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.6rem 1.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0,86,210,0.08);
+  cursor: pointer;
+  transition: background 0.18s, box-shadow 0.18s;
+}
+
+.submit-btn:hover, .submit-btn:focus {
+  background: linear-gradient(90deg, #003a8c 0%, #0056d2 100%);
+  box-shadow: 0 4px 16px rgba(0,86,210,0.13);
+}
+
+@media (max-width: 600px) {
+  .payment-container {
+    padding: 1.2rem 0.5rem 1rem 0.5rem;
+    max-width: 98vw;
+  }
+  .order-overview {
+    padding: 0.8rem 0.5rem 0.7rem 0.5rem;
+  }
+}

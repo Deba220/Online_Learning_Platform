@@ -1,0 +1,199 @@
+.portal-title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  letter-spacing: 1px;
+}
+
+.portal-card {
+  border-radius: 16px;
+  background: linear-gradient(135deg, #f8f9fa 80%, #e3f2fd 100%);
+  border: none;
+}
+
+.card-body h2 {
+  font-weight: 600;
+}
+
+.list-group-item {
+  font-size: 1.08rem;
+  background: transparent;
+  border: none;
+  padding-left: 0;
+}
+
+.btn-primary {
+  background-color: #1976d2;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #1565c0;
+}
+
+.btn-outline-secondary {
+  border-color: #1976d2;
+  color: #1976d2;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+/* Nav Tabs Custom Styling */
+.nav-tabs {
+  background: #f5f7fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07);
+  padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.nav-tabs .nav-item {
+  margin: 0 10px;
+}
+
+.nav-tabs .nav-link {
+  font-weight: 500;
+  color: #1976d2;
+  border: none;
+  border-radius: 8px 8px 0 0;
+  transition: background 0.2s, color 0.2s;
+  padding: 0.7rem 1.5rem;
+  background: transparent;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:hover {
+  background: #e3f2fd;
+  color: #0d47a1;
+  border: none;
+  box-shadow: 0 2px 6px rgba(25, 118, 210, 0.08);
+}
+
+/* TeachersForm custom styles */
+.bg-light {
+  background: linear-gradient(135deg, #e3f2fd 60%, #fff 100%);
+}
+
+form.shadow-lg {
+  box-shadow: 0 6px 24px rgba(44, 62, 80, 0.12);
+}
+
+.form-label {
+  color: #1976d2;
+}
+
+/* Diagonal color strips for TeachersForm */
+.teacher-form-strip-top {
+  position: absolute;
+  top: -75px;
+  left: -5px;
+  width: 100px;
+  height: 20rem;
+  background: linear-gradient(90deg, #64b5f6 0%, #1976d2 100%);
+  /* border-radius: 12px 0 0 0; */
+  z-index: 2;
+  transform: rotate(40deg);
+}
+
+/* .teacher-form-strip-right {
+  position: absolute;
+  top: -155px;
+  left: 550px;
+  width: 100px;
+  height: 70rem;
+  background: linear-gradient(180deg, #64b5f6 0%, #1976d2 100%); */
+  /* border-radius: 12px 0 0 0; */
+  /* z-index: 2;
+  transform: rotate(130deg);
+} */
+
+.teacher-form-strip-bottom {
+  position: absolute;
+  bottom: -75px;
+  right: -5px;
+  width: 100px;
+  height: 20rem;
+  background: linear-gradient(90deg, #1976d2 100%, #64b5f6 0%);
+  /* border-radius: 12px 0 0 0; */
+  z-index: 2;
+  transform: rotate(40deg);
+}
+
+
+
+
+/* Upgrade */
+.portal-title {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.portal-card {
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.card {
+  border: 1px solid #e3e6f0;
+  border-radius: 0.35rem;
+}
+
+.card-header {
+  background-color: #f8f9fc;
+  border-bottom: 1px solid #e3e6f0;
+}
+
+.border-left-primary {
+  border-left: 0.25rem solid #4e73df !important;
+}
+
+.border-left-success {
+  border-left: 0.25rem solid #1cc88a !important;
+}
+
+.border-left-info {
+  border-left: 0.25rem solid #36b9cc !important;
+}
+
+.border-left-warning {
+  border-left: 0.25rem solid #f6c23e !important;
+}
+
+.text-purple {
+  color: #6f42c1;
+}
+
+.nav-tabs .nav-link {
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.nav-tabs .nav-link.active {
+  color: #4e73df;
+  font-weight: 600;
+}
+
+.btn-group-sm > .btn {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+}
+
+.progress {
+  background-color: #eaecf4;
+}
+
+.table th {
+  border-top: none;
+  font-weight: 600;
+  color: #6e707e;
+}
+
+.badge {
+  font-weight: 500;
+}
+
+.shadow {
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
